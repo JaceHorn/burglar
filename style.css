@@ -1,0 +1,69 @@
+*{
+
+    font-weight: 700;
+    color:crimson;
+    background-color:deepskyblue;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+}
+img{
+    width: 45vw;
+}
+a{
+    display: block;
+    font-size: 20px;
+}
+
+
+.burglar{
+    width: 30vw;
+}
+.katana{
+    width: 20vw;
+}
+.win{
+    width: 30vw;
+}
+.spoon{
+    width: 30vw;
+}
+.call{
+    width: 30vw;
+}
+.start{
+    font-size:30px;
+    font-weight: bold;
+}
+.footer::after{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+
+    content: " © 2022 Jace Horn";
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.brand::before{
+    display: block;
+    height: 30px;
+    width: 50vw;
+    font-size: larger;
+    position: fixed;
+    content: "Choose Your Own Adventure";
+    background-color: darkgray;
+    color: aliceblue;
+}
+.desc{
+    padding: 50px;
+}
+.Home{
+    font-size:larger;
+    position: fixed;
+    background-color: darkgray;
+
+}
+   
+
+   
